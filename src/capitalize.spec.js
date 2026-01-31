@@ -1,4 +1,4 @@
-const capitalize = require("./capitalize");
+import capitalize from "./capitalize"
 
 describe("Capitalize", () => {
   test("Capitalize single word", () => {

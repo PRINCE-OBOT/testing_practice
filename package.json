@@ -1,7 +1,7 @@
 {
-  "name": "Akwapolycoop Loan Tracker",
+  "name": "Tesing Practice",
   "version": "1.0.0",
-  "description": "Loan Tracking System to help borrowers monitors how their loan is accumulated",
+  "description": "Practicing TDD",
   "lint-staged": {
     "src/**/*.js": [
       "eslint --fix",
@@ -12,6 +12,8 @@
     ]
   },
   "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *./",
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack serve --config webpack.prod.js",
     "dev": "webpack --config webpack.dev.js",
@@ -34,14 +36,16 @@
   },
   "homepage": "https://github.com/PRINCE-OBOT/Restaurant-Page#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.2",
-    "eslint": "^8.57.1",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
     "husky": "^9.1.7",
+    "jest": "^30.2.0",
     "lint-staged": "^16.1.2",
     "mini-css-extract-plugin": "^2.9.2",
     "prettier": "^3.6.2",

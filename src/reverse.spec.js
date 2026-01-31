@@ -1,4 +1,4 @@
-const reverse = require("./reverse");
+import reverse from "./reverse";
 
 describe("Reverse String", () => {
   test("Reverse a single word", () => {
